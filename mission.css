@@ -2,7 +2,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  background: #5A65EF;
+  background: #8ABD91;
 }
 
 .fcheader {
@@ -35,18 +35,20 @@ body {
   font-weight: 100;
   padding: 5px;
   text-align: center;
+  justify-content: center;
   height: 50vh;
 }
 
 #title {
-  display: flex;
+
   font-size: 20px;
   font-family: "monaco";
   color: #FFF;
   font-weight: 100;
   padding: 5px;
   text-align: center;
-  height: 50vh;
+
+
 }
 
 .nav {
@@ -63,7 +65,7 @@ body {
 }
 
 .button {
-  background: #5A65EF;
+  background: #8ABD91;
   color: white;
   font-family: "monaco", "garamond";
   font-size: 25px;
@@ -87,22 +89,30 @@ body {
 }
 
 #home:hover {
-  background: #000;
+  background: #FFFFFF;
 }
 #mission:hover {
-  background: #EF5AB0;
+  background: #FFFFFF;
 }
 
 #info:hover {
-  background: #EFE45A;
+  background: #FFF;
 }
 
 #map:hover {
-  background: #5AEF9A;
+  background: #FFF;
+}
+
+#shop:hover {
+  background: #FFF;
 }
 
 #forum:hover {
-  background: #EF9A5A;
+  background: #FFF;
+}
+
+#faq:hover {
+  background: #FFF;
 }
 
 .fcfooter {
