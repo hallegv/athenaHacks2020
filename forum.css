@@ -6,8 +6,13 @@ body {
 }
 
 #new {
-  background:#3376FF;
-  float: right;
+  display: flex;
+  align-items: center;
+  background: #8ABD91;
+  color: white;
+  font-family: "monaco", "garamond";
+  font-size: 25px;
+  width: 50vh;
 }
 
 .fcslogan {
