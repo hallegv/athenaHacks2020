@@ -132,11 +132,28 @@ padding: 10px;
 
 #prevention {
 
-  font-size: 19px;
+  font-size: 15px;
   font-family: "monaco";
-  color: black;
+  color: #FFF;
   font-weight: 100;
-  padding: 2px;
+  padding: 5px;
   text-align: center;
 
 }
+
+.picture {
+  text-align: center;
+  position: relative;
+  color: white;
+  width : 100%;
+  display: block;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 100px;
+  transform: translate(-50%, -50%);
+}
+
