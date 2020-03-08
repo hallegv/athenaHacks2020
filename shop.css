@@ -103,43 +103,38 @@ body {
 
 
 .picture1 {
-  float: left;
-  width: 33.33%;
-  padding: 0px;
   position: relative;
-  box-sizing: border-box;
-  padding: 0 5px;
+  width: 40%;
+  margin: 50px;
+  float:center;
 }
 
 .picture2 {
-  float: right;
-  width: 33.33%;
-  padding: 0px;
   position: relative;
-  box-sizing: border-box;
-  padding: 0 5px;
+  width: 40%;
+  margin: 50px;
+  float:center;
 }
 
 .picture3 {
   position: relative;
-  width: 30%;
-  margin-left: 100px;
+  width: 40%;
+  margin: 50px;
+  float:center;
 }
 
 .picture4 {
   position: relative;
-  width: 30%;
-  margin-left: 100px;
+  width: 40%;
+  margin: 50px;
+  float:center;
 }
 
 .picture5 {
   position: relative;
-  width: 30%;
-  margin-left: 100px;
-}
-
-.container {
-  position:absolute;
+  width: 40%;
+  margin: 50px;
+  float:center;
 }
 
 .overlay {
@@ -223,10 +218,12 @@ body {
   height: auto;
 }
 
-.column {
-  width: 50%;
-  padding: 10px;
-  height: 300px; 
+.container {
+  padding-left: 50px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 
