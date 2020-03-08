@@ -7,7 +7,7 @@ body {
 .fcheader {
   display: flex;
   flex-direction: column;
-  height: 20vh;
+  height: 13vh;
   align-items: stretch;
   background: center / cover no-repeat;
 }
