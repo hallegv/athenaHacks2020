@@ -4,6 +4,7 @@
 <title>Create Forum</title>
 <link rel="stylesheet" type="text/css" href="forum2.css">
 <script src="forum.js"></script>
+<script src="data.js"></script>
 </head>
 <body>
   <div class="fcpage">
@@ -15,8 +16,11 @@
         Create a post
       </h1>
     </div>
-   <h2>Name</h2> <input type="text">
-   
+   <h2>Name</h2> <input id="name" type="text">
+   <h2>Post</h2> <textarea rows="15"></textarea>
+   <br>
+   <button id = "submit" onclick="initializeApp()">Submit</button>
+    
 
     
 

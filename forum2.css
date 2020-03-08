@@ -4,10 +4,32 @@ body {
     height: 100vh;
     background: #8ABD91;
   }
+
+  h2 {
+      font-size:30px;
+      font-style: bold;
+  }
+
+  textarea {
+    width: 70%;
+    font-size: 24px;
+  }
+
+  #name {
+      font-size:24px;
+      width: 50%;
+  }
   
-  #new {
-    background:#3376FF;
-    float: right;
+  #submit {
+    background-color:#3376FF;
+    color: #FFFFFF;
+    margin: 10px;
+    font-size: 24px;
+    padding: 15px, 32px;
+  }
+
+  #submit:hover {
+      background-color: #1041A8;
   }
   
   .fcslogan {
