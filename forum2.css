@@ -1,0 +1,124 @@
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #8ABD91;
+  }
+  
+  #new {
+    background:#3376FF;
+    float: right;
+  }
+  
+  .fcslogan {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .button2 {
+    color: white;
+    background: #5A65EF;
+  }
+  
+  #slogan {
+    font-size: 20px;
+    font-family: "monaco";
+    color: #FFF;
+    font-weight: 100;
+    padding: 5px;
+    text-align: left;
+    height: 50vh;
+  }
+  
+  #title {
+  
+    font-size: 20px;
+    font-family: "monaco";
+    color: #FFF;
+    font-weight: 100;
+    padding: 5px;
+    text-align: left;
+  
+  }
+  
+  .nav {
+    display: flex;
+    flex-shrink: 1;
+    background-color: rgba(0, 0, 0, 0);
+  
+  }
+  
+  .fcbuttons {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .button {
+    background: #8ABD91;
+    color: white;
+    font-family: "monaco", "garamond";
+    font-size: 25px;
+    font-weight: 400;
+    align-content: stretch;
+    height: 75px;
+    width: 500px;
+    float: center;
+    border: 0.5px;
+    transition-duration: 0.7s;
+  }
+  
+  .button:hover {
+    font-family: "monaco", "garamond";
+    font-size: 27.5px;
+    font-weight: 500;
+    height: 90px;
+    width: 550px;
+    float: left;
+    border: 0.5px;
+  }
+  
+  #home:hover {
+    background: #FFFFFF;
+  }
+  #mission:hover {
+    background: #FFFFFF;
+  }
+  
+  #info:hover {
+    background: #FFF;
+  }
+  
+  #map:hover {
+    background: #FFF;
+  }
+  
+  #shop:hover {
+    background: #FFF;
+  }
+  
+  #forum:hover {
+    background: #FFF;
+  }
+  
+  #faq:hover {
+    background: #FFF;
+  }
+  
+  .fcfooter {
+    display: flex;
+    height: 300px;
+    flex-shrink: 1;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    font-family: "monaco", "garamond";
+  }
+  
