@@ -8,7 +8,7 @@ body {
 .fcheader {
   display: flex;
   flex-direction: column;
-  height: 50vh;
+  height: 70vh;
   align-items: stretch;
   background: center / cover no-repeat
 }
@@ -168,4 +168,20 @@ body {
 
 .picture5:hover .overlay {
   opacity: 1;
+}
+
+.picture {
+  text-align: center;
+  position: relative;
+  color: white;
+  width : 100%;
+  display: block;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 100px;
+  transform: translate(-50%, -50%);
 }

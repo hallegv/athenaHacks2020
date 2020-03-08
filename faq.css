@@ -129,3 +129,14 @@ padding: 10px;
   color: white;
   font-family: "monaco", "garamond";
 }
+
+#prevention {
+
+  font-size: 19px;
+  font-family: "monaco";
+  color: black;
+  font-weight: 100;
+  padding: 2px;
+  text-align: center;
+
+}
