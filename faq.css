@@ -8,7 +8,7 @@ body {
 .fcheader {
   display: flex;
   flex-direction: column;
-  height: 50vh;
+  height: 20vh;
   align-items: stretch;
   background: center / cover no-repeat
 }
@@ -25,6 +25,37 @@ body {
 .button2 {
   color: white;
   background: #5A65EF;
+}
+
+.whatsCOVID, .COVIDsym, .spread, .vac, .mask, .pet, .no {
+  background: #87AE8D;
+  text-align: center;
+  color: white;
+  font-family: "monaco", "garamond";
+  font-size: 25px;
+  font-weight: 400;
+  align-content: stretch;
+padding: 10px;
+  float: center;
+  border: 2.5px solid white;
+  opacity: 90%;
+}
+
+.whatsCOVID-content, .COVIDsym-content, .spread-content, .vac-content, .mask-content, .pet-content, .no-content {
+  text-align: center;
+  display: none;
+  padding: 50px;
+  background: #87AE8D;
+  color: white;
+  font-family: "monaco", "garamond";
+  font-size: 15px;
+  font-weight: 400;
+  float: center;
+}
+
+.whatsCOVID:hover .whatsCOVID-content, .COVIDsym:hover .COVIDsym-content, .spread:hover .spread-content, .vac:hover .vac-content, .mask:hover .mask-content, .pet:hover .pet-content, .no:hover .no-content{
+  display: flex;
+  transition-duration: 1s;
 }
 
 #slogan {
@@ -89,7 +120,7 @@ body {
 
 .fcfooter {
   display: flex;
-  height: 300px;
+  height: 10vh;
   flex-shrink: 1;
   flex-wrap: nowrap;
   justify-content: space-evenly;
