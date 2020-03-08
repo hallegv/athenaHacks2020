@@ -22,6 +22,8 @@ body {
   background-color: rgba(0, 0, 0, 0);
 }
 
+
+
 .button2 {
   color: white;
   background: #5A65EF;
@@ -101,52 +103,56 @@ body {
 
 
 .picture1 {
-    text-align: center;
-    width : 100%;
-    display: block;
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 5px;
 }
 
 .picture2 {
-  text-align: center;
-  width : 100%;
-  display: block;
+  float: right;
+  width: 33.33%;
+  padding: 0px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 5px;
 }
 
 .picture3 {
-  text-align: center;
-  width : 100%;
-  display: block;
+  position: relative;
+  width: 30%;
+  margin-left: 100px;
 }
 
 .picture4 {
-  text-align: center;
-  width : 100%;
-  display: block;
+  position: relative;
+  width: 30%;
+  margin-left: 100px;
 }
 
 .picture5 {
-  text-align: center;
-  width : 100%;
-  display: block;
+  position: relative;
+  width: 30%;
+  margin-left: 100px;
 }
 
+.container {
+  position:absolute;
+}
 
 .overlay {
-  position: relative;
+  position: absolute;
+  top: 0;
   bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(109, 158, 115, 0.5); /* Black see-through */
-  color: #f1f1f1;
-  width: 40%;
-  transition: .5s ease;
-  opacity:0;
-  color: white;
-  float: center;
-  font-size: 20px;
-  padding: 20px;
-  height: 7%;
+  left: 0;
+  right: 0;
+  height: 100%;
   width: 100%;
-  text-align: center;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(109, 158, 115, 0.5);
 }
 
 
@@ -198,3 +204,29 @@ body {
   text-align: center;
 
 }
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.column {
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+
