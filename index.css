@@ -1,8 +1,29 @@
-
 body {
-  width: 100vw;
-  height: 100vh;
-  background: #8ABD91;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  font-family: monocao;
+
+  background: url(Runningpeople.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.fancyWords {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  right: 16px;
 }
 
 .fcheader {
@@ -10,7 +31,7 @@ body {
   flex-direction: column;
   height: 50vh;
   align-items: stretch;
-  background: center / cover no-repeat
+  background: center / cover no-repeat;
 }
 
 .fcslogan {
@@ -24,14 +45,14 @@ body {
 
 .button2 {
   color: white;
-  background: #5A65EF;
+  background: #5a65ef;
 }
 
 #slogan {
   display: flex;
   font-size: 20px;
   font-family: "monaco";
-  color: #FFF;
+  color: #fff;
   font-weight: 100;
   padding: 5px;
   text-align: center;
@@ -52,7 +73,7 @@ body {
 }
 
 .button {
-  background: #8ABD91;
+  background: #8abd91;
   color: white;
   font-family: "monaco", "garamond";
   font-size: 25px;
@@ -66,7 +87,7 @@ body {
 }
 
 .button:hover {
-  background: #B4CBB7;
+  background: #b4cbb7;
   font-family: "monaco", "garamond";
   font-size: 27.5px;
   font-weight: 500;
