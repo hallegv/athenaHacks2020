@@ -1,8 +1,7 @@
-
 body {
   width: 100vw;
   height: 100vh;
-  background: #8ABD91;
+  background: #8abd91;
 }
 
 .fcheader {
@@ -10,7 +9,7 @@ body {
   flex-direction: column;
   height: 20vh;
   align-items: stretch;
-  background: center / cover no-repeat
+  background: center / cover no-repeat;
 }
 
 .fcslogan {
@@ -24,36 +23,54 @@ body {
 
 .button2 {
   color: white;
-  background: #5A65EF;
+  background: #5a65ef;
 }
 
-.whatsCOVID, .COVIDsym, .spread, .vac, .mask, .pet, .no {
-  background: #87AE8D;
+.whatsCOVID,
+.COVIDsym,
+.spread,
+.vac,
+.mask,
+.pet,
+.no {
+  background: #87ae8d;
   text-align: center;
   color: white;
   font-family: "monaco", "garamond";
   font-size: 25px;
   font-weight: 400;
   align-content: stretch;
-padding: 10px;
+  padding: 10px;
   float: center;
   border: 2.5px solid white;
   opacity: 90%;
 }
 
-.whatsCOVID-content, .COVIDsym-content, .spread-content, .vac-content, .mask-content, .pet-content, .no-content {
+.whatsCOVID-content,
+.COVIDsym-content,
+.spread-content,
+.vac-content,
+.mask-content,
+.pet-content,
+.no-content {
   text-align: center;
   display: none;
   padding: 50px;
-  background: #87AE8D;
+  background: #87ae8d;
   color: white;
   font-family: "monaco", "garamond";
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 400;
   float: center;
 }
 
-.whatsCOVID:hover .whatsCOVID-content, .COVIDsym:hover .COVIDsym-content, .spread:hover .spread-content, .vac:hover .vac-content, .mask:hover .mask-content, .pet:hover .pet-content, .no:hover .no-content{
+.whatsCOVID:hover .whatsCOVID-content,
+.COVIDsym:hover .COVIDsym-content,
+.spread:hover .spread-content,
+.vac:hover .vac-content,
+.mask:hover .mask-content,
+.pet:hover .pet-content,
+.no:hover .no-content {
   display: flex;
   transition-duration: 1s;
 }
@@ -62,7 +79,7 @@ padding: 10px;
   display: flex;
   font-size: 20px;
   font-family: "monaco";
-  color: #FFF;
+  color: #fff;
   font-weight: 100;
   padding: 5px;
   text-align: center;
@@ -70,14 +87,12 @@ padding: 10px;
 }
 
 #title {
-
   font-size: 20px;
   font-family: "monaco";
-  color: #FFF;
+  color: #fff;
   font-weight: 100;
   padding: 5px;
   text-align: center;
-
 }
 
 .nav {
@@ -94,7 +109,7 @@ padding: 10px;
 }
 
 .button {
-  background: #8ABD91;
+  background: #8abd91;
   color: white;
   font-family: "monaco", "garamond";
   font-size: 25px;
@@ -108,7 +123,7 @@ padding: 10px;
 }
 
 .button:hover {
-  background: #B4CBB7;
+  background: #b4cbb7;
   font-family: "monaco", "garamond";
   font-size: 27.5px;
   font-weight: 500;
@@ -131,21 +146,19 @@ padding: 10px;
 }
 
 #prevention {
-
   font-size: 15px;
   font-family: "monaco";
-  color: #FFF;
+  color: #fff;
   font-weight: 100;
   padding: 5px;
   text-align: center;
-
 }
 
 .picture {
   text-align: center;
   position: relative;
   color: white;
-  width : 100%;
+  width: 100%;
   display: block;
 }
 
@@ -156,4 +169,3 @@ padding: 10px;
   font-size: 100px;
   transform: translate(-50%, -50%);
 }
-
