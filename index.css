@@ -14,19 +14,25 @@ body {
   background-size: cover;
 }
 
-.fancyWords {
-  position: relative;
+.words {
+  display: flex;
+  height: 300px;
+  flex-shrink: 1;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
   text-align: center;
+  font-size: 25px;
   color: white;
+  font-family: "monaco", "garamond";
 }
 
-.top-left {
+/* .top-left {
   position: absolute;
   top: 8px;
   right: 16px;
   color: black;
   font-family: "monaco";
-}
+} */
 
 .fcheader {
   display: flex;
@@ -37,6 +43,7 @@ body {
 }
 
 .fcslogan {
+    flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -52,14 +59,14 @@ body {
 
 #slogan {
   display: flex;
-  font-size: 20px;
-  font-family: "monaco";
-  color: #fff;
-  font-weight: 100;
-  padding: 5px;
+  height: 300px;
+  flex-shrink: 1;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
   text-align: center;
-  height: 50vh;
-  margin-left: 20px;
+  font-size: 30px;
+  color: white;
+  font-family: "monaco", "garamond";
 }
 
 .nav {

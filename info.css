@@ -119,10 +119,10 @@ body {
 }
 
 .centered {
+    font-family: "monaco";
   position: absolute;
   top: 50%;
   left: 50%;
   font-size: 100px;
   transform: translate(-50%, -50%);
 }
-

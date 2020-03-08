@@ -92,7 +92,7 @@ h2 {
 .img-wrap {
   padding-left: 50px;
   width: 100%;
- 
+
   text-align: center;
   display: block;
 }
@@ -116,6 +116,7 @@ h2 {
   top: 50%;
   left: 50%;
   font-size: 100px;
+  font-family: "monaco";
   transform: translate(-50%, -50%);
 }
 
