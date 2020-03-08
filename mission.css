@@ -109,6 +109,8 @@ h2 {
   color: white;
   width : 100%;
   display: block;
+  align-items: center;
+  justify-content: center;
 }
 
 .centered {
@@ -131,11 +133,17 @@ h2 {
 
 }
 
+#hicontainer {
+    text-align: center;
+    padding: 10px;
+}
+
 #hi {
 
   font-size: 20px;
   font-family: "monaco";
-  color: #006600;
+  background-color: #b4cbb7;
+  color: white;
   font-weight: 200;
   padding: 2px;
   text-align: center;
